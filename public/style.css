@@ -1,0 +1,237 @@
+  /* General */
+  body {
+    margin: 0px;
+    font-family: Calibri;
+    background-color: white;
+  }
+
+  /* Navigation Bar */
+  ul {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: white;
+    top: 0px;
+    width: 100%;
+  }
+
+  li.brand {
+    margin-left: 100px;
+  }
+
+  li.active {
+    background-color: #fafafa;
+  }
+
+  li.right {
+    float: right;
+  }
+
+  li.right-space {
+    float: right;
+    margin-right: 100px;
+  }
+
+  li {
+    float: left;
+  }
+
+  li,
+  a {
+    font-size: 18px;
+    display: block;
+    color: #58d68d;
+    text-align: center;
+    padding: 7px 12px;
+    text-decoration: none;
+    transition: 0.4s;
+  }
+
+  li:hover,
+  a:hover {
+    background-color: #fafafa;
+  }
+
+  /* Intro */
+  h1 {
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 100px;
+    color: white;
+    margin-bottom: 0px;
+  }
+
+  h2 {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    color: white;
+    max-width: 1000px;
+    opacity: 0.7;
+  }
+
+  input,
+  textarea {
+    margin-top: 10px;
+    width: 300px;
+    height: 25px;
+    font-size: 15px;
+    border: 0px;
+    /* border-bottom: 1px solid #58d68d; */
+    /* color: #58d68d; */
+  }
+
+  textarea {
+    /* border: 1px solid #58d68d; */
+    /* height: 100px; */
+  }
+
+  /* Outro */
+  footer {
+    height: 55px;
+    /* background-color: #58d68d; */
+    transition: 1s;
+  }
+
+  footer:hover {
+    /* background-color: #4f5250; */
+  }
+
+  /* Modal */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  }
+
+  /* Content */
+  .modal-content {
+    /* background-color: #fefefe; */
+    /* margin: 15% auto; 15% from the top and centered */
+    /* padding: 20px; */
+    /* border: 1px solid #888; */
+    /* width: 75%; Could be more or less, depending on screen size */
+    position: relative;
+  }
+
+  /* Close Button */
+  .close {
+    color: grey;
+    position: absolute;
+    right: 0px;
+    top: -5px;
+    margin-right: 7px;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 15;
+  }
+
+  .close:hover {
+    color: #000;
+    text-decoration: none;
+    padding: 0px;
+    cursor: pointer;
+  }
+
+  .modal-body {
+    padding: 2px 16px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  .mySlides1 {
+    display: none;
+  }
+
+  img {
+    vertical-align: middle;
+  }
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .note {
+    background-color: grey;
+    padding: 0.5px 0px;
+  }
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    /* border-radius: 3px 0 0 3px; */
+  }
+
+  /* On hover, add a grey background color */
+  .prev:hover,
+  .next:hover {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  /* Animation */
+  @-webkit-keyframes slideIn {
+    from {
+      bottom: -300px;
+      opacity: 0;
+    }
+    to {
+      bottom: 0;
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideIn {
+    from {
+      bottom: -300px;
+      opacity: 0;
+    }
+    to {
+      bottom: 0;
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  /* End Modal */   
