@@ -446,11 +446,11 @@
     <!-- Button trigger modal -->
     <!-- Modal -->
     <div class="modal fade store-modal" id="examplal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
+        <div class="modal-dialog modal-fullscreen-sm-down">
 
 
 
-            <div class="modal-content">
+    <div class="modal-content">
         {{-- <span class="close">&times;</span> --}}
         <div class="modal-body">
           <div class="container">
@@ -487,6 +487,8 @@
         </div>
       </div>
     </div>
+    </div>
+
     <script type="text/javascript" src="{{url('js/storelocator.js')}}"></script>
     <script> <link rel="stylesheet" href="style.css"></script>
     <script src="main.js"></script>
