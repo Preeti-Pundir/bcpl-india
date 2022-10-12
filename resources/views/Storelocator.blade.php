@@ -244,9 +244,9 @@
 
 
                                 <!---   city data   --->
-                                @foreach ($storecity as $city)
+                                {{-- @foreach ($storecity as $city)
                                     <option value="{{ $city->id }}">{{ $city->name }}</option>
-                                @endforeach
+                                @endforeach --}}
                                 <!---   city data   --->
 
 
