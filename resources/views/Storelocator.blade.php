@@ -260,16 +260,8 @@
                     <!--------- Your Store Data-------->
 
                     <div class="scroll-page store">
-                        {{-- <p><b>Inorbit Mall – Vadodara</b></p>
+                     
 
-                        <p>Ground Floor Alembic Rd, Opposite to Alembic School, Gorwa, Vadodara, Gujarat - 390023.</p>
-                        <br>
-                        <p>Email: care@bcplindia.com</p>
-                        <p>Store Timing - Coming Soon</p>
-                        <button class="fsubmit get_directions">Get Directions</button>
-                        <a data-bs-toggle="modal" data-bs-target="#examplal"  id="button_1" class="pt-3 d-block store_details button_1 store-link" href="javascript: void(0);">Store Details</a> --}}
-
-{{-- frontend --}}
                         <p class="mt-m"><b>SELECT CITY WALK</b></p>
 
                             <p>G – 55, Ground Floor, 
@@ -415,7 +407,33 @@
                         <a class="getdirectionbtn" href="https://www.google.com/maps/place/Nexus+Amritsar/@31.6197701,74.9054437,17z/data=!3m2!4b1!5s0x39197c" target="_blank" >Get direction</a>
                          <a data-bs-toggle="modal" data-bs-target="#examplal"  id="button_1" class="pt-3 d-block store_details button_1 store-link " href="javascript: void(0);" >Store Details</a>
 
+                       
+                         <hr>
 
+                         <p class="mt-3"><b>Ambuja Mall, Raipur</b></p>
+                         <p>Ambuja Mall Ground Floor Ambuja City Centre Vidhan...</p> 
+ 
+                         <a class="getdirectionbtn" href="https://www.google.com/maps/d/u/0/embed?mid=19f9bWKPWoHTxV0eoy_yJoSWCJTvLCRk&ehbc=2E312F" width="100" target="_blank" >Get direction</a>
+                          <a data-bs-toggle="modal" data-bs-target="#examplal"  id="button_1" class="pt-3 d-block store_details button_1 store-link " href="javascript: void(0);" >Store Details</a>
+ 
+
+                          <hr>
+
+                          <p class="mt-3"><b>MBD Neopolis Mall, Jalandhar</b></p>
+                          <p>BS Jalandhar Opp Desh Dhagat Yaadgaar Halls BMC Ch...</p> 
+  
+                          <a class="getdirectionbtn" href="https://www.google.com/maps/d/u/0/embed?mid=1UPaIwmPGrGHOVZAokmZLljfJELn8CvY&ehbc=2E312F" width="100" target="_blank" >Get direction</a>
+                           <a data-bs-toggle="modal" data-bs-target="#examplal"  id="button_1" class="pt-3 d-block store_details button_1 store-link " href="javascript: void(0);" >Store Details</a>
+ 
+                           
+                           <hr>
+
+                           <p class="mt-3"><b>Nashik City Mall</b></p>
+                           <p>Nashik City Mall Upper Ground Floor Sambhaji Chowk...</p> 
+   
+                           <a class="getdirectionbtn" href="https://www.google.com/maps/d/u/0/embed?mid=1amapMs_MhceO9AfYCfn1B35YTvGTws0&ehbc=2E312F" width="100" target="_blank" >Get direction</a>
+                            <a data-bs-toggle="modal" data-bs-target="#examplal"  id="button_1" class="pt-3 d-block store_details button_1 store-link " href="javascript: void(0);" >Store Details</a>
+   
                     </div>
                     
 
